@@ -1,0 +1,7 @@
+server:
+  build: .
+  ports:
+    - 8001:8001
+  environment:
+    SS_SERVER_PORT: 8001
+    SS_PASSWORD: 12345678  
